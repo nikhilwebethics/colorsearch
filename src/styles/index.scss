@@ -1,0 +1,64 @@
+@import 'fonts';
+
+*{
+  box-sizing: border-box;
+margin: 0;
+padding: 0;  
+}
+
+:root{
+  font-size: 16px;
+  margin: 0 auto;
+  padding: 0;
+  font-family: $font;
+}
+
+div{
+  display: flex;
+  flex-direction:
+  column;
+  align-items: center;
+  align-self: center;
+  justify-content: flex-start;
+  text-align: left;
+  max-width: 100%;
+}
+div.contact__container{
+width: 300px;
+text-align: flex-start;
+align-items: flex-start;
+padding: 24px;
+border: 1px solid black;
+margin: 24px;
+}
+div.contact__container > div{
+  align-self: flex-start;
+}
+.contact__item{
+  display: flex;
+  flex-flow: row-wrap;
+width: 100%;
+align-items: flex-start;
+font-family: $font;
+padding: 4px;
+}
+.bold{
+  font-weight: bold;
+}
+.search__input{
+ height: 42px;
+ margin: 12px;
+ width: 300px;
+ background-color: whitesmoke;
+ padding: 2px;
+ font-family: $font;
+ border-radius: 4px;
+
+}
+.search__input:hover{
+background-color: seashell;
+}
+.search__input:active{
+  border-color: cadetblue;
+  }
+  
